@@ -7,6 +7,14 @@ export default function App() {
       <Navbar variant="dark" bg="dark" expand="lg">
         <Container>
           <Navbar.Brand>Penny&apos;s Memory</Navbar.Brand>
+          <Navbar.Text>
+            <a
+              href="https://www.buymeacoffee.com/pennysmemories"
+              target="_blank"
+              rel="noreferrer">
+              Donate here! 100% of donations go towards tools and supplies!
+            </a>
+          </Navbar.Text>
         </Container>
       </Navbar>
       <div className="pt-5" style={{ backgroundColor: '#f0ebf8' }}>
